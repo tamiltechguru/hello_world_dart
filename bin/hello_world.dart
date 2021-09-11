@@ -1,10 +1,10 @@
 import 'package:characters/characters.dart';
 
 void main(List<String> arguments) {
-  const family = '👨‍👩‍👧‍👦';
-  print(family.length);
-  print(family.codeUnits);
-  print(family.runes);
-  print(family.characters.length);
-  print(family.length);
+  var message = StringBuffer();
+  message.write('hello there, \n');
+  message.write('how are you?\t');
+  message.write('hope everything is fine');
+  message.toString();
+  print(message);
 }
