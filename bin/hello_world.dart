@@ -1,10 +1,4 @@
-import 'package:characters/characters.dart';
-
 void main(List<String> arguments) {
-  var message = StringBuffer();
-  message.write('hello there, \n');
-  message.write('how are you?\t');
-  message.write('hope everything is fine');
-  message.toString();
-  print(message);
+  const oneThird = 1 / 3;
+  print('one third is ${oneThird.toStringAsFixed(3)}');
 }
