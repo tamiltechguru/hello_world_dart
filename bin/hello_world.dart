@@ -1,4 +1,6 @@
 void main(List<String> arguments) {
-  const oneThird = 1 / 3;
-  print('one third is ${oneThird.toStringAsFixed(3)}');
+  const message = 'i 💔 dart';
+  print(message.runes);
+  // for values above FFFF in hexa, surround it with {}
+  print('\u{1F494}');
 }
