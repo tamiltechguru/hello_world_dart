@@ -1,6 +1,8 @@
 void main(List<String> arguments) {
-  const message = 'i 💔 dart';
-  print(message.runes);
-  // for values above FFFF in hexa, surround it with {}
-  print('\u{1F494}');
+  const firstName = 'Kannan';
+  const lastName = 'Ramaswamy';
+  const fullName = firstName + ' ' + lastName;
+  print(fullName);
+  const myDetails = 'Hello, my name is $fullName';
+  print(myDetails);
 }
